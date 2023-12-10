@@ -1,0 +1,23 @@
+@import "./colors.css";
+@import "./controls.css";
+@import "./typography.css";
+:root {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-darkest);
+  color: var(--text-color);
+}
+
+.main {
+  height: 100dvh;
+  max-height: 100dvh;
+  overflow: hidden;
+  margin: 0 auto;
+}

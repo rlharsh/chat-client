@@ -1,0 +1,15 @@
+:root {
+  --background-base: #1e1f22;
+  --background-dark: #2e3035;
+  --background-darkest: #1e1f22;
+  --text-color: #fff;
+  --text-color-dark: #545965;
+  --accent-color: #00ac83;
+  --accent-color-alt: #03a9f1;
+  --message-sent: #272a35;
+  --message-received: #373e4e;
+}
+
+.dark {
+  color: var(--text-color-dark);
+}

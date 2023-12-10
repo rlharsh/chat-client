@@ -1,0 +1,16 @@
+.chat-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  button {
+    display: flex;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,18 @@
+h1 {
+  font-weight: 700;
+  color: var(--accent-color);
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.fine-print {
+  font-size: 0.8rem;
+}
+
+.bold {
+  font-weight: 500;
+}

@@ -1,0 +1,23 @@
+.chat-input {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0;
+
+  form {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+
+    input {
+      width: 100%;
+      padding-left: 1rem;
+      border-radius: 0.625rem;
+      background-color: var(--background-dark);
+    }
+
+    button {
+      border-radius: 0.625rem;
+      background-color: var(--accent-color);
+    }
+  }
+}

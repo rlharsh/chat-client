@@ -1,0 +1,143 @@
+:root {
+  --border-radius: 0px;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+.flex {
+  display: flex;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.width-full {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.height-full {
+  height: 100vh;
+  max-height: 90vh;
+  overflow: none;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.fixed-2 {
+  min-height: 2rem;
+}
+
+.full-container {
+  position: relative;
+  width: 100%;
+  max-width: 390px;
+  height: 100dvh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background-color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: var(--border-radius);
+  color: var(--text-color);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+input:focus {
+  outline: none;
+  border: 1px solid var(--accent-color);
+}
+
+.center-text {
+  text-align: center;
+}
+
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #000;
+}
+
+input {
+  box-shadow: none;
+}
+
+button {
+  background-color: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  border: none;
+  color: #fff;
+  font-weight: 900;
+}
+
+textarea {
+  width: 100%;
+}
+
+.modal {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  color: #000;
+}
+
+.button-clear {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0px;
+  font-weight: 500;
+}
